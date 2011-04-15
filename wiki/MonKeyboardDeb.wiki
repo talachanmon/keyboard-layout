@@ -5,3 +5,4 @@ _သြက္ရဲရပ္ Linux Ubuntu install ေလာဲေလာဲ န�
 $ sudo dpkg -i --force-overwrite mon-keyboard.deb ဍႝဳ enter မၢးဂြံရေရာင္။)http://soelinthet.blogspot.com ေတံညိ။ ဟြံေျပျပံင္မၢး http://facebook.com/talachan ကၜဳင္သဿာန္စိုပ္မာန္အိုတ္ရ။_
 #[$ cd ~/Desktop]
 #[$ sudo dpkg -i --force-overwrite mon-keyboard.deb]
+#help page: http://soelinthet.blogspot.com/2011/04/mon-keyboarddeb-easy-to-install-on-your.html

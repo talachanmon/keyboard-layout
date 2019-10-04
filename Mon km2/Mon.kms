@@ -1,0 +1,192 @@
+﻿// @NAME = "Mon 1.0.4"
+// @FONTFAMILY = "Yunghkio,Padauk"
+// @DESCRIPTION = "Mon keyboard layout converted keymagic by HV-986.iblogger.org Question to talachanmon At Google.com"
+// @ICON = "Mon.png"
+// @HOTKEY = "ALT+A"
+// @TRACK_CAPSLOCK = "FALSE"
+// @EAT_ALL_UNUSED_KEYS = "TRUE"
+// @US_LAYOUT_BASED = "TRUE"
+// @SMART_BACKSPACE = "TRUE"
+
+$kinzi = U1004 + U103A + U1039
+
+("RIGHT_SQUARE_BRACKET") + ANY => $1	
+<VK_KEY_1> => U1041
+<VK_KEY_1 & VK_SHIFT> => U100B
+<VK_KEY_2> => U1042
+<VK_KEY_2 & VK_SHIFT> => U1003
+<VK_KEY_3> => U1043
+<VK_KEY_3 & VK_SHIFT> => U100C
+<VK_KEY_4> => U1044
+<VK_KEY_4 & VK_SHIFT> => U100F
+<VK_KEY_5> => U1045
+<VK_KEY_5 & VK_SHIFT> => U105B
+<VK_KEY_6> => U1046
+<VK_KEY_6 & VK_SHIFT> => U1029
+<VK_KEY_7> => U1047 
+<VK_KEY_7 & VK_SHIFT> => U105D
+<VK_KEY_8> => U1048
+<VK_KEY_8 & VK_SHIFT> => U1034
+<VK_KEY_9> => U1049
+<VK_KEY_9 & VK_SHIFT> => U0028
+<VK_KEY_0> => U1040
+<VK_KEY_0 & VK_SHIFT> => U0029
+<VK_OEM_MINUS> => U1028
+<VK_OEM_MINUS & VK_SHIFT> => U1027
+<VK_OEM_PLUS> => U1025
+<VK_OEM_PLUS & VK_SHIFT> => U1023
+<VK_KEY_Q> => U101E
+<VK_KEY_Q & VK_SHIFT> => U1009
+<VK_KEY_W> => U101D
+<VK_KEY_W & VK_SHIFT> => U103D
+<VK_KEY_E> => U200B + U1031
+<VK_KEY_E & VK_SHIFT> => U1035 + U102F
+<VK_KEY_R> => U101B
+<VK_KEY_R & VK_SHIFT> => U100A
+<VK_KEY_T> => U1010
+<VK_KEY_T & VK_SHIFT> => U1039 + U1010
+<VK_KEY_Y> => U101A
+<VK_KEY_Y & VK_SHIFT> => U1032
+<VK_KEY_U> => U102F
+<VK_KEY_U & VK_SHIFT> => U1030
+<VK_KEY_I> => U102D
+<VK_KEY_I & VK_SHIFT> => U1033
+<VK_KEY_O> => U1001
+<VK_KEY_O & VK_SHIFT> => U1039 + U1001
+<VK_KEY_P> => U1015
+<VK_KEY_P & VK_SHIFT> => U1039 + U1015
+<VK_OEM_3> => U1020
+<VK_OEM_3 & VK_SHIFT> => U103F
+<VK_OEM_4> => U103C
+<VK_OEM_4 & VK_SHIFT> => U103B
+<VK_OEM_5> => U1011
+<VK_OEM_5 & VK_SHIFT> => U100E
+<VK_OEM_6> => U1013
+<VK_OEM_6 & VK_SHIFT> => U1039 + U1013
+<VK_KEY_A> => U1021
+<VK_KEY_A & VK_SHIFT> => U1039 + U1021
+<VK_KEY_S> => U1005
+<VK_KEY_S & VK_SHIFT> => U1039 + U1005
+<VK_KEY_D> => U1012
+<VK_KEY_D & VK_SHIFT> => U1039 + U1012
+<VK_KEY_F> => U1016 
+<VK_KEY_F & VK_SHIFT> => U1039
+<VK_KEY_G> => U1002 
+<VK_KEY_G & VK_SHIFT> => U1039 + U1002
+<VK_KEY_H> => U101F
+<VK_KEY_H & VK_SHIFT> => U103E
+<VK_KEY_J> => U103A
+<VK_KEY_J & VK_SHIFT> => U102E
+<VK_KEY_K> => U1000
+<VK_KEY_K & VK_SHIFT> => U1039 + U1000
+<VK_KEY_L> => U101C
+<VK_KEY_L & VK_SHIFT> => U1060
+<VK_OEM_1> => U100D
+<VK_OEM_1 & VK_SHIFT> => U1039 + U100D
+<VK_OEM_7> => U104A
+<VK_OEM_7 & VK_SHIFT> => U104B
+<VK_KEY_Z> => U1007
+<VK_KEY_Z & VK_SHIFT> => U1039 + U1007
+<VK_KEY_X> => U1006
+<VK_KEY_X & VK_SHIFT> => U1039 + U1006
+<VK_KEY_C> => U105A
+<VK_KEY_C & VK_SHIFT> => U1039 + U105A
+<VK_KEY_V> => U1018 
+<VK_KEY_V & VK_SHIFT> => U1039 + U1018
+<VK_KEY_B> => U1017 
+<VK_KEY_B & VK_SHIFT> => U1039 + U1017
+<VK_KEY_N> => U1014
+<VK_KEY_N & VK_SHIFT> => U105E
+<VK_KEY_M> => U1019
+<VK_KEY_M & VK_SHIFT> => U105F
+<VK_OEM_COMMA> => U1036
+<VK_OEM_COMMA & VK_SHIFT> => U1038
+<VK_OEM_PERIOD> => U102C
+<VK_OEM_PERIOD & VK_SHIFT> => U102B
+<VK_OEM_2> => U105C
+<VK_OEM_2 & VK_SHIFT> => U1039 + U105C
+//<VK_SPACE> => U0020 // This will prevent from commiting composition string when press space
+<VK_SPACE & VK_SHIFT> => U0020
+<VK_DECIMAL> => U002e
+<VK_DECIMAL & VK_SHIFT> => U002e
+
+// RE-ORDER
+$consU = U1000 + U1001 + U1002 + U1003 + U105A + U1005 + U1006 + U1007 + \
+	U105B  + U100A + U100B + U100C + U100D + U100E + U100F + \
+	U1010 + U1011 + U1012 + U1013 + U1014 + U1015 + U1016 + U1017 + \
+	U1018 + U1019 + U101A + U101B + U101C + U101D + U101E + U101F + \
+	U1020 + U1021 + U105C + U105D
+
+U200B + U1031 + $consU[*] => $consU[$3] + $2
+U200B + U103C + $consU[*] =>  $consU[$3] + $2
+
+U200B + U1031 + $consU[*] + U103C => $3 + $4 + $2
+
+//Mon kwatNML
+$kwatNML = U105E + U105F + U1060
+$kwatHW = U103E + U103D
+U1031 + $kwatNML[*] => $2 + $1
+$UpMon = U102D + U102E + U1033 + U1032 + U1034 + U1035 + U1036
+$UpMon[*] + U1039 + $consU[*] => U1039 + $consU[$3] + $1
+$DownkwatMon = $kwatNML + $kwatHW
+$UpMon[*] + $DownkwatMon[*] => $DownkwatMon[$2] + $1
+U1032 + U102F => $2 + $1
+$Aawt = U103E + U103A
+U1031 + U103A => $2 + $1
+U1031 +$consU[*] + $Aawt[*] + $Aawt[*] => $2 + $3 + $4 + $1 //reorder Aawt
+$sdiaU = U103B + U103C + U103E + U103D
+U1031 + $sdiaU[*] => $2 + $1
+U1031 + $sdiaU[*] + $sdiaU[*] => $2 + $3 + $1
+U1031 + $sdiaU[*] + $sdiaU[*] + $sdiaU[*] => $2 + $3 + $4 + $1
+//kinzi
+$consU[*] + $kinzi => $kinzi + $1
+$consU[*] + U103C + $kinzi => $kinzi + $1 + U103C
+$consU[*] + U1031 + $kinzi => $kinzi + $1 + U1031
+// following are taken from myWin and some more rules are added
+$numOrLetU = U1040 + U1047 + U1048 
+$numAsLetU = U101D + U101B + U1002 
+$numOrLetU[*] + U102C => $numAsLetU[$1] + U102C 
+$numOrLetU[*] + U102B => $numAsLetU[$1] + U102B 
+$numOrLetU[*] + U103A => $numAsLetU[$1] + U103A 
+$numOrLetU[*] + U1036 => $numAsLetU[$1] + U1036 
+$numOrLetU[*] + U102D => $numAsLetU[$1] + U102D 
+$numOrLetU[*] + U102E => $numAsLetU[$1] + U102E
+$numOrLetU[*] + U1032 => $numAsLetU[$1] + U1032
+$numOrLetU[*] + U103B => $numAsLetU[$1] + U103B
+$numOrLetU[*] + U103D => $numAsLetU[$1] + U103D
+$numOrLetU[*] + U103E => $numAsLetU[$1] + U103E
+U1031 + $numOrLetU[*] => U1031 + $numAsLetU[$2] 
+$numOrLetU[*] + U1004 + U103A => $numAsLetU[$1] + U1004 + U103A 
+$numOrLetU[*] + $consU[*] + U103A => $numAsLetU[$1] + $consU[$2] + U103A 
+$numOrLetU[*] + $numOrLetU[*] + U103A => $numAsLetU[$1] + $numAsLetU[$2] + U103A 
+// users usually type u-tha when they mean nya child tha
+U1025 + U103A => U1009 + U103A 
+U1025 + U102C => U1009 + U102C 
+U1025 + U1039 + $consU[*] => U1009 + $2 + $3
+$consU[*] + U1039 + U101B => U105A //Mon Nga
+U1007 + U103B => U105B //Mon Jha
+U101E + U103C + U1031 + U102C + U103A => U102A //aww
+U1000 + U1031 + U102C + U1036 + U1000 + U102F => U1000 + U1031 + U102F + U102C + U1036 //komku
+
+// create some classes for diacritics that might have been 
+// sensibly typed before the user types the medial
+$allDiaU = U1031 + U102F + U1030 + U102D + U1032 + U1036 + U1037 
+$udiaU = U102D + U102E + U1032 + U102F + U1030 
+$ldiaU = U102F + U1030 
+
+// these allow the user to type upper and lower diacritics in
+// any order, but to still get the storage right
+U1036 + $udiaU[*] => $2 + $1
+$ldiaU[*] + U1036 + $udiaU[*] => $3 + $1 + $2
+
+U1031 + U1039 + $consU[*] => U1039 + $3 + U1031
+$consU[*] + U103B + U1031 + $kinzi => $kinzi + $1 + $2 + $3
+$consU[*] + U1039 + $kinzi + $consU[*] =>  $kinzi + $1 + $2 + $4
+$consU[*] + U1039 + $consU[*] + U102F + $kinzi => $kinzi + $1 + $2 + $3 + $4
+
+
+$U2D2E = U102D + U102E
+U102F + $U2D2E[*] => $2 + $1
+$U2D2E[*] + U103B => $2 + $1
+$U2D2E[*] + U103E => $2 + $1
+$U2D2E[*] + U103D => $2 + $1
